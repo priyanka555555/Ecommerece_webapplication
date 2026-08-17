@@ -194,7 +194,7 @@ def delete_product(request, pk):
 
     return render(request, 'EcoWeb/delete.html', {'product': product})
 
-########### added for buyer product view
+########### abc
 @login_required
 def buyer_product(request, pk):
     
